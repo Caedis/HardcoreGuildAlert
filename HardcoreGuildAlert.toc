@@ -1,0 +1,7 @@
+## Title: Hardcore Guild Alert
+## Author: Caedis
+## Version: 1.0
+## SavedVariables:
+## Interface: 11404
+
+Core.lua
