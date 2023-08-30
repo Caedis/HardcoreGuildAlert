@@ -1,4 +1,5 @@
 ## Title: Hardcore Guild Alert
+## Notes: Plays a raid warning sound when someone dies in guild
 ## Author: Caedis
 ## Version: 1.0
 ## SavedVariables:
