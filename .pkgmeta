@@ -1,0 +1,6 @@
+package-as: HardcoreGuildAlert
+
+enable-nolib-creation: no
+  
+move-folders:
+    HardcoreGuildAlert/HardcoreGuildAlert: HardcoreGuildAlert
