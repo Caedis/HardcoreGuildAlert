@@ -4,5 +4,6 @@
 ## Version: 1.0
 ## SavedVariables:
 ## Interface: 11404
+## X-Curse-Project-ID: 908293
 
 Core.lua
