@@ -1,9 +1,11 @@
 local frame = CreateFrame('Frame')
 
-frame:SetScript('OnEvent', function(_, event)
-    if event == 'GUILD_MEMBER_DIED' then
+frame:SetScript('OnEvent', function(_, event, arg1)
+    if event == 'CHAT_MSG_GUILD_DEATHS' then
         PlaySound(8959)
+        RaidNotice_AddMessage(RaidWarningFrame, arg1, ChatTypeInfo["GUILD_DEATHS"])
     end
 end)
 
-frame:RegisterEvent('GUILD_MEMBER_DIED')
+RaidWarningFrame:UnregisterEvent('GUILD_MEMBER_DIED')
+frame:RegisterEvent('CHAT_MSG_GUILD_DEATHS')
